@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SUMA DE NUMEROS</title>
+    </head>
+    <body>
+        <h1>Este es un programa que calcula la suma de dos números</h1>
+
+        <script type="text/javascript">
+            // utilizamos la función prompt para pedir los datos de entrada al usuario
+            var numero1 = parseInt(prompt("Ingresá el primer número para la suma"));
+            var numero2 = parseInt(prompt("Ingresá el segundo número para la suma"));
+
+            var resultado = sumarDosNumeros(numero1,numero2);
+            alert( resultado );
+
+            var incremento = parseInt(prompt("Ingresá el incremento de la suma"));
+
+
+
+            function sumarDosNumeros(numero1,numero2) {
+                resultado = numero1 + numero2;
+                return resultado;
+            }
+        </script>
+
+    </body>
+</html>
