@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+
+       <!-- Metadata del documento -->
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link  rel="stylesheet" href="Estilos.css"  type="text/css">
+		<title>Ejemplo 1</title>
+	</head>
+	<body>	
+	
+		<div class="Titulo" > 
+			<p  > Introduccion </p>
+		</div><br/> 
+		
+		
+		
+		<div class="formulario" > 
+			  <form action="/enviar-datos" method="post">
+				  <label for="nombre">Nombre:</label>
+				  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+				  <label for="correo">Correo electrónico:</label>
+				  <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+
+				  <label for="edad">Edad:</label>
+				  <input type="number" id="edad" name="edad" min="1" max="100">
+
+				  <label for="fecha">Fecha de Nacimiento:</label>
+				  <input type="date" id="fecha" name="fechaNacimiento">
+
+				  <label>
+					<input type="checkbox" name="suscripcion" value="si"> Quiero recibir noticias
+				  </label>
+
+				  <input type="submit" value="Enviar">
+			  </form>
+		</div> 
+		 
+		 
+	<script>
+	
+		var time = new Date();
+		console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+		console.log("Melisa Andrea");
+		alert("Hola Melisa Andrea!! ");
+		
+	</script>
+	
+	</body>
+	
+
+</html>

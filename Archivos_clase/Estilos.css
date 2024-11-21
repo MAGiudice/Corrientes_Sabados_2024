@@ -1,0 +1,27 @@
+body {
+	/* border: solid 1px red; */
+	 padding: 20px;  
+}
+
+label{ display:block;      }
+.Titulo { border-style: outset; 
+		  padding:50px; 
+	      text-align:center; 
+		  background-color:#cef3ef; 
+		  font-weight: bold; 
+		  width:80%; 
+		  margin:auto;
+		 /* border: solid 1px red;*/ 
+		}
+					 
+.formulario {padding:50px;  
+			 width:80%; 
+			 margin:auto;   
+			 border: dashed,#028072;
+		     border-radius: 2em; 
+			 background-color:#e7fefc; 
+			 text-align:center; 
+			 box-shadow:10px 20px 30px blue;
+			}		
+
+ 
